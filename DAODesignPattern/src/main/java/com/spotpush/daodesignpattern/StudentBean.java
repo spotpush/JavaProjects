@@ -1,5 +1,5 @@
 /*
- * Model Object
+ * Model Object - Data Transfer Object (DTO)
  */
 package com.spotpush.daodesignpattern;
 

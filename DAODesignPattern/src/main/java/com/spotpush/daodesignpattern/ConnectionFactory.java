@@ -1,5 +1,6 @@
 /**
-This class registers the database driver and manages database connection 
+* This class registers the database driver and manages database connection 
+* Database Connection 
 */
 /** @author Stephen Hardy @ spotpush.com  */
 package com.spotpush.daodesignpattern;
