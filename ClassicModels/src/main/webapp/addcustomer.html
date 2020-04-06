@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Add a customer to the classic models database
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/cm.css">
+        <title>Classic Models - Add Customer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Add Customer</div>
+        <form action="${pageContext.request.contextPath}/AddCustomer" method="post">
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName" name="customerName"><br>
+        <label for="contactFirstName">First name:</label>
+        <input type="text" id="contactFirstName" name="contactFirstName"><br>
+        <label for="contactLastName">Last name:</label><br>
+        <input type="text" id="contactLastName" name="contactLastName"><br>
+        <label for="phoneNumber">Phone Number:</label><br>
+        <input type="text" id="phoneNumber" name="phoneNumber"><br>
+        <label for="addressLine1">Address Line 1:</label><br>
+        <input type="text" id="addressLine1" name="addressLine1"><br>
+        <label for="addressLine2">Address Line 2:</label><br>
+        <input type="text" id="addressLine2" name="addressLine2"><br>
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city"><br>
+        <label for="state">State:</label><br>
+        <input type="text" id="state" name="state"><br>
+        <label for="postalCode">Postal Code:</label><br>
+        <input type="text" id="postalCode" name="postalCode"><br>
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country"><br>
+        <label for="salesRepEmpNum">Sales Rep Employee Number:</label><br>
+        <input type="text" id="salesRepEmpNum" name="salesRepEmpNum"><br>
+        <label for="creditLimit">Credit Limit:</label><br>
+        <input type="text" id="creditLimit" name="creditLimit"><br>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+        </form>
+    </body>
+</html>
