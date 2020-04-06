@@ -1,0 +1,25 @@
+/*
+Classic Models CSS
+*/
+/* 
+    Created on : 05-Apr-2020, 13:35:33
+    Author     : Stephen Hardy @ spotpush.com
+*/
+lable {
+    color: red;
+}
+input {
+    color:green;
+}
+input[type=text]{
+    border-top: 0.5px solid blue;
+    border-right: 0.5px solid blue;
+    border-left: 0.5px solid blue;
+    border-bottom:2px solid blue;
+    
+}
+div {
+    color: green;
+}
+
+
