@@ -1,0 +1,40 @@
+lable {
+    color: red;
+}
+
+input {
+    color:black;
+    font-size: 5px;
+}
+
+input[type=text]{
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 16px;
+}
+
+h1 {
+    font-size:5em;
+    font-weight: bold;
+}
+
+div {
+    font-size:5em;
+    font-weight: bold;
+}
+
+fieldset {
+    width: 13em;
+    
+}
+
+legend {
+    font-size:2em;
+    font-weight: bold;
+}
