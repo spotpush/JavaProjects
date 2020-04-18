@@ -12,8 +12,17 @@
 /JavaServerFaces/nbproject/private/
 /JavaServerPages/build/
 /DAODesignPattern/target/
+<<<<<<< HEAD
+/WebDevelopment/PrimeFaces/nbproject/private/
+/WebDevelopment/WebApplication1/nbproject/private/
+=======
 /WebDevelopment/UserManagementJSPServlet/nbproject/private/
 /WebDevelopment/jsp-servlet-jdbc-mysql-UserManagement/nbproject/private/
 /WebDevelopment/jsp-servlet-jdbc-mysql-UserManagement/build/
 /WebDevelopment/jsp-servlet-jdbc-mysql-UserManagement/dist/
+<<<<<<< HEAD
 /WebDevelopment/StringsInJava/target/
+=======
+>>>>>>> 17135a702be5122003eb1393c87124006bd7f4d7
+/WebDevelopment/UserManagement/target/
+>>>>>>> e641be6ecb76b4155771a731e3802449607806f7
