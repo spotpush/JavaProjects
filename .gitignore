@@ -20,8 +20,12 @@
 /WebDevelopment/jsp-servlet-jdbc-mysql-UserManagement/nbproject/private/
 /WebDevelopment/jsp-servlet-jdbc-mysql-UserManagement/build/
 /WebDevelopment/jsp-servlet-jdbc-mysql-UserManagement/dist/
+<<<<<<< HEAD
+/WebDevelopment/StringsInJava/target/
+=======
 >>>>>>> 17135a702be5122003eb1393c87124006bd7f4d7
 /WebDevelopment/UserManagement/target/
+<<<<<<< HEAD
 /JavaFX/JavaFXApplication2/nbproject/private/
 /JavaFX/JavaFXApplication2/build/
 /JavaFX/JavaFXApplication3/nbproject/private/
@@ -29,3 +33,6 @@
 /JavaFX/JavaFXApplication5/nbproject/private/
 /JavaFX/JavaFXMySQL/nbproject/private/
 /JavaFX/JavaFXMySQL/build/
+=======
+>>>>>>> e641be6ecb76b4155771a731e3802449607806f7
+>>>>>>> 32df603cc803786c5b629aa600dee42ec5955f12
