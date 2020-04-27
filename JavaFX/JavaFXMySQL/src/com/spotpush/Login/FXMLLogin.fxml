@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="475.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="com.spotpush.Login.FXMLLoginController">
+   <children>
+      <Label layoutX="125.0" layoutY="191.0" prefHeight="44.0" prefWidth="96.0" text="User Name" />
+      <Label layoutX="125.0" layoutY="231.0" prefHeight="44.0" prefWidth="96.0" text="Password" />
+      <TextField fx:id="userName" layoutX="221.0" layoutY="202.0" />
+      <Button fx:id="submitLogin" layoutX="221.0" layoutY="306.0" mnemonicParsing="false" onAction="#submitLoginRequest" prefHeight="22.0" prefWidth="134.0" text="Login" />
+      <Label layoutX="123.0" layoutY="119.0" prefHeight="44.0" prefWidth="248.0" text="User Login">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passWord" layoutX="221.0" layoutY="242.0" />
+      <Label fx:id="usernameerror" layoutX="386.0" layoutY="202.0" prefHeight="22.0" prefWidth="167.0" />
+      <Label fx:id="passworderror" layoutX="386.0" layoutY="242.0" prefHeight="22.0" prefWidth="167.0" />
+   </children>
+</AnchorPane>
