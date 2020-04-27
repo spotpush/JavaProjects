@@ -2,19 +2,36 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spotpush.javafxmysql.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="475.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spotpush.javafxmysql.FXMLDocumentController">
     <children>
-        <Button fx:id="button" layoutX="126.0" layoutY="100.0" onAction="#button" text="Click Me!" />
+        <Button fx:id="button" layoutX="195.0" layoutY="36.0" onAction="#button" prefHeight="22.0" prefWidth="120.0" text="Insert and Show" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <TextField fx:id="textfield" layoutX="84.0" layoutY="36.0" prefHeight="36.0" prefWidth="149.0" />
-      <Label fx:id="textlabel" layoutX="92.0" layoutY="150.0" prefHeight="36.0" prefWidth="136.0" text="Label">
+      <TextField fx:id="textfield" layoutX="25.0" layoutY="29.0" prefHeight="36.0" prefWidth="149.0" />
+      <Label fx:id="textlabel" layoutX="25.0" layoutY="77.0" prefHeight="36.0" prefWidth="136.0" text="Label">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
+      <TableView fx:id="tableusers" layoutX="38.0" layoutY="200.0" prefHeight="200.0" prefWidth="467.0">
+        <columns>
+          <TableColumn fx:id="colid" prefWidth="45.0" text="ID" />
+          <TableColumn fx:id="colname" prefWidth="105.0" text="Name" />
+            <TableColumn fx:id="colemail" prefWidth="178.0" text="Email" />
+            <TableColumn fx:id="colcountry" minWidth="0.0" prefWidth="138.0" text="Country" />
+        </columns>
+      </TableView>
+      <Label fx:id="userdetails" layoutX="38.0" layoutY="147.0" prefHeight="36.0" prefWidth="103.0" text="User Details">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnload" layoutX="38.0" layoutY="426.0" mnemonicParsing="false" onAction="#loadDataFromDatabase" prefHeight="22.0" prefWidth="128.0" text="Load Users" />
+      <Button layoutX="455.0" layoutY="39.0" mnemonicParsing="false" onAction="#changeSceneButton" prefHeight="22.0" prefWidth="75.0" text="Next Scene" />
     </children>
 </AnchorPane>
