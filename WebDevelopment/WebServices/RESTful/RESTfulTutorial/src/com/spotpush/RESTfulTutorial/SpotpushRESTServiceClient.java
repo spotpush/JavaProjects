@@ -29,12 +29,13 @@ public class SpotpushRESTServiceClient {
 			
 			//pass (JSON) file to REST service (spotpushService)
 			try {
+				//standard boilerplate code for connecting to a webservice/URL
 				URL url = new URL("http://localhost:8182/RESTfulTutorial/api/spotpushService");
-				URLConnection connection = url.openConnection();
-				connection.setDoOutput(true);
+				URLConnection connection = url.openConnection(); //
+				connection.setDoOutput(true); //use the URL for output the default is false
 				connection.setRequestProperty("Content-Type", "application/json");
-				connection.setConnectTimeout(5000);
-				connection.setReadTimeout(5000);
+				connection.setConnectTimeout(5000);//milliseconds (5 seconds)
+				connection.setReadTimeout(5000); //set a limit on receiving data once a connection is established
 				OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
 				out.write(jsonObject.toString());
 				out.close();

@@ -8,16 +8,13 @@
 * @author Stephen Hardy @ spotpush.com
 */
 package util;
-
+/* Imports */
 import com.sun.rowset.CachedRowSetImpl;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
-/* Imports */
-
 
 public class DBUtil {
 

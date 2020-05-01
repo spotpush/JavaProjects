@@ -11,7 +11,6 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -23,9 +22,10 @@ public class PageoneController implements Initializable {
         Scene pageOneScene = new Scene(pageOne);
         
         //This line picks up Stage information
-        Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-        window.setScene(pageOneScene);
-        window.show();
+        //Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        Stage stage = (Stage) .getScene()).getWindow();
+        stage.setScene(pageOneScene);
+        stage.show();
     }
     
     /**

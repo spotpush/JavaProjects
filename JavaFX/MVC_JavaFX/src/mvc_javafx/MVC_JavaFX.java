@@ -1,6 +1,4 @@
 package mvc_javafx;
-
-
 /**
  *
  * @author Stephen Hardy @ spotpush.com
@@ -25,11 +23,12 @@ public class MVC_JavaFX extends Application {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("MVC JavaFX Application");
         initRootLayout();
-        showEmployeeOperationsView();
+        showWelcomeView();
     }
     
     public void initRootLayout() {
         try {
+            //This set the initial layout and adds the menu bar
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MVC_JavaFX.class.getResource("../view/RootLayout.fxml"));
             rootLayout = (BorderPane) loader.load();
@@ -42,12 +41,12 @@ public class MVC_JavaFX extends Application {
         }
     }
     
-    public void showEmployeeOperationsView() {
+    public void showWelcomeView() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MVC_JavaFX.class.getResource("../view/EmployeeOperations.fxml"));
-            AnchorPane employeeOperationsView = (AnchorPane) loader.load();
-            rootLayout.setCenter(employeeOperationsView);
+            loader.setLocation(MVC_JavaFX.class.getResource("../view/WelcomeView.fxml"));
+            AnchorPane welcomeView = (AnchorPane) loader.load();
+            rootLayout.setCenter(welcomeView);
         } catch (IOException e) {
             e.printStackTrace();
         }
