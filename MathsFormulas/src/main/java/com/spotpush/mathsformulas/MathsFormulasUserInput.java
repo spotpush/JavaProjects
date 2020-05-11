@@ -41,8 +41,9 @@ public class MathsFormulasUserInput
         System.out.print("y2 = ");
         double y2 = usrObj.nextDouble();
                 
-        double dFormula = MathsFormulas.distanceFormula(x1, x2, y1, y2);
-        return dFormula;
+        //double dFormula = MathsFormulas.distanceFormula(x1, x2, y1, y2);
+        //return dFormula;
+        return MathsFormulas.distanceFormula(x1, x2, y1, y2);
     }
     
     double slopeFormula()

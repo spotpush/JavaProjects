@@ -16,20 +16,21 @@ public class MathsFormulas
     
     double distanceFormula(double x1, double x2, double y1, double y2)
     {
-        double distanceXY = Math.sqrt((Math.pow((y1-x1),2)+Math.pow((y2-x2), 2)));
-        return distanceXY;
+        //double distanceXY = Math.sqrt((Math.pow((y1-x1),2)+Math.pow((y2-x2), 2)));
+        //return distanceXY;
+        return Math.sqrt((Math.pow((y1-x1),2)+Math.pow((y2-x2), 2)));
     }
     
     double slopeFormula(double x1, double x2, double y1, double y2)
     {
-        double SlopeXY = ((y2-y1)/(x2-x1));
-        return SlopeXY;
+        //double SlopeXY = ((y2-y1)/(x2-x1));
+        return ((y2-y1)/(x2-x1));
     }
     
     double pythagoreanFormula(double a, double b)
     {
-        double pythagoreanABC = (Math.sqrt((Math.pow(a,2))+(Math.pow(b,2))));
-        return pythagoreanABC;
+        //double pythagoreanABC = (Math.sqrt((Math.pow(a,2))+(Math.pow(b,2))));
+        return (Math.sqrt((Math.pow(a,2))+(Math.pow(b,2))));
     }
     
     //return multiple values of the same type
@@ -42,13 +43,13 @@ public class MathsFormulas
     }
      
     double areaoftriangle(double base, double height) {
-        double aot = (base*height)/2;
-        return aot;
+        //double aot = (base*height)/2;
+        return (base*height)/2;
     }
     
     double trigonometrysine(double opposite, double hypotenuse){
-        double tSine = opposite/hypotenuse;
-        return tSine;
+        //double tSine = opposite/hypotenuse;
+        return opposite/hypotenuse;
     }
 
 }
