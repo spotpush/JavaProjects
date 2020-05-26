@@ -1,0 +1,8 @@
+{
+    "name": "SpotpushAssociates",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Stephen Hardy @ spotpush.com",
+    "contributors": [],
+    "dependencies": {}
+}
